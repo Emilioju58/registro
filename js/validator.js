@@ -16,25 +16,45 @@ formulario.addEventListener(
 
     //Elementos de error
     const errorNombre = document.getElementById("errorname");
-    const erroremail = document.getElementById("erroremail");
     const errorage = document.getElementById("errorage");
+    const erroremail = document.getElementById("erroremail");
     const errorphone = document.getElementById("errorphone");
 
-const mensaje = document.getElementsById("message")
+const mensaje = document.getElementById("message");
 
 
 //Centinela del conocimiento 
-if(nombre --- ""){
+let = valido =true;
+if(nombre === ""){
 errorname.textContent = "El nombre es obligatorio"
 valido = false 
 
 }else{
- errorname.textContent = ""
+ errorNombre.textContent = ""
+}
 
+if(edad === ""){
+errorage.textContent = "La edad es obligatorio"
+valido = false 
+
+}else{
+errorage.textContent = ""
+}
+
+if(Correo_Electronico === ""){
+erroremail.textContent = "El correo es obligatorio"
+valido = false 
+
+}else{
+ erroremail.textContent = ""
+}
+
+if(Telefono === ""){
+errorphone.textContent = "El Telefono es obligatorio"
+valido = false 
+
+}else{
+ errorphone.textContent = ""
 }
 }
 );
-
-
-
-
